@@ -5,6 +5,12 @@ body{
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'futura-pt', sans-serif;
+    /* background-color: rgb(41, 227, 34); */
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 p{
@@ -19,4 +25,12 @@ p{
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 2rem;
+}
+
+@media (max-width : 650px) {
+.header-logo p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
 }
